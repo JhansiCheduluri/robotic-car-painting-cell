@@ -1,0 +1,249 @@
+======================================================================
+ROBOTIC CAR PAINTING CELL - DUAL FANUC P-250iB RH SIMULATION
+======================================================================
+Car object: simple_car (Position: [1000.0, 3000.0, 0.0])
+Configured Robots:
+   Robot L (Fanuc P-250iB RH): Base frame 'Fanuc P-250iB RH Base', Tool 'SprayGun' (TCP offset: [0, 0, 200] mm)
+   Robot R (Robot_Right): Base frame 'Base_Right', Tool 'SprayGun_R' (TCP offset: [0, 0, 200] mm)
+Collision detection: ACTIVE (monitoring genuine robot-car and cell contacts)
+Baseline collision status (parked robots): 0 collisions
+
+Planning collision-free piece trajectories...
+Planned 204 pieces across 7 surfaces in 65.8 s (0 require extended search).
+
+Executing validated painting motion with progressive surface spray...
+[  1/204] Roof         painted by robot L (lane 1600, stop  -600, roll   0)    1 s
+[  2/204] Roof         painted by robot L (lane 1600, stop     0, roll   0)    2 s
+[  3/204] Roof         painted by robot L (lane 1600, stop   600, roll   0)    3 s
+[  4/204] Roof         painted by robot L (lane 1600, stop   600, roll   0)    4 s
+[  5/204] Roof         painted by robot L (lane 1600, stop     0, roll   0)    5 s
+[  6/204] Roof         painted by robot L (lane 1600, stop  -600, roll   0)    6 s
+[  7/204] Roof         painted by robot L (lane 1600, stop  -600, roll   0)    7 s
+[  8/204] Roof         painted by robot L (lane 1600, stop     0, roll   0)    9 s
+[  9/204] Roof         painted by robot L (lane 1800, stop   450, roll   0)   10 s
+[ 10/204] Hood         painted by robot L (lane 1600, stop  1200, roll   0)   11 s
+[ 11/204] Hood         painted by robot L (lane 1600, stop  1650, roll   0)   11 s
+[ 12/204] Hood         painted by robot L (lane 1600, stop  2100, roll   0)   12 s
+[ 13/204] Hood         painted by robot L (lane 1600, stop  2100, roll  90)   13 s
+[ 14/204] Hood         painted by robot L (lane 1600, stop  1800, roll  90)   14 s
+[ 15/204] Hood         painted by robot L (lane 1600, stop  1350, roll  90)   15 s
+[ 16/204] Hood         painted by robot L (lane 1600, stop  1350, roll   0)   16 s
+[ 17/204] Hood         painted by robot L (lane 1600, stop  1650, roll   0)   17 s
+[ 18/204] Hood         painted by robot L (lane 1600, stop  2100, roll   0)   17 s
+[ 19/204] Hood         painted by robot L (lane 1600, stop  2100, roll  90)   18 s
+[ 20/204] Hood         painted by robot L (lane 1600, stop  1800, roll  90)   19 s
+[ 21/204] Hood         painted by robot L (lane 1600, stop  1350, roll  90)   20 s
+[ 22/204] Hood         painted by robot L (lane 1600, stop  1350, roll   0)   20 s
+[ 23/204] Hood         painted by robot L (lane 1600, stop  1650, roll   0)   21 s
+[ 24/204] Hood         painted by robot L (lane 1600, stop  2100, roll   0)   22 s
+[ 25/204] Trunk        painted by robot L (lane 1600, stop -2250, roll   0)   24 s
+[ 26/204] Trunk        painted by robot L (lane 1600, stop -1800, roll   0)   25 s
+[ 27/204] Trunk        painted by robot L (lane 1600, stop -1350, roll   0)   26 s
+[ 28/204] Trunk        SKIPPED - L lane 1600 stop -1350 roll 90: move to approach failed: collision during MoveJ with simpl
+[ 29/204] Trunk        painted by robot L (lane 1600, stop -1650, roll  90)   30 s
+[ 30/204] Trunk        painted by robot L (lane 1600, stop -2100, roll  90)   31 s
+[ 31/204] Trunk        painted by robot L (lane 1600, stop -2100, roll   0)   32 s
+[ 32/204] Trunk        painted by robot L (lane 1600, stop -1800, roll   0)   33 s
+[ 33/204] Trunk        painted by robot R (lane 1600, stop -1200, roll  90)   43 s
+[ 34/204] Trunk        painted by robot R (lane 1600, stop -1350, roll   0)   45 s
+[ 35/204] Trunk        painted by robot L (lane 1600, stop -1650, roll  90)   46 s
+[ 36/204] Trunk        painted by robot L (lane 1600, stop -2100, roll  90)   46 s
+[ 37/204] Trunk        painted by robot L (lane 1600, stop -2100, roll   0)   47 s
+[ 38/204] Trunk        painted by robot L (lane 1600, stop -1800, roll   0)   48 s
+[ 39/204] Trunk        painted by robot R (lane 1600, stop -1350, roll  90)   50 s
+[ 40/204] Front        painted by robot L (lane 2000, stop  2100, roll  90)   51 s
+[ 41/204] Front        painted by robot L (lane 1600, stop  2400, roll 180)   54 s
+[ 42/204] Front        painted by robot L (lane 1500, stop  2400, roll   0)   55 s
+[ 43/204] Front        painted by robot L (lane 1500, stop  2400, roll   0)   56 s
+[ 44/204] Front        painted by robot L (lane 1500, stop  2400, roll  90)   57 s
+[ 45/204] Front        painted by robot L (lane 1600, stop  2250, roll   0)   59 s
+[ 46/204] Front        painted by robot L (lane 1600, stop  2250, roll 270)   61 s
+[ 47/204] Front        painted by robot L (lane 1600, stop  2250, roll   0)   62 s
+[ 48/204] Front        painted by robot L (lane 1600, stop  2250, roll   0)   63 s
+[ 49/204] Front        painted by robot L (lane 1600, stop  2250, roll  90)   65 s
+[ 50/204] Rear         painted by robot L (lane 1600, stop -2400, roll   0)   66 s
+[ 51/204] Rear         painted by robot L (lane 2000, stop -2400, roll   0)   77 s
+[ 52/204] Rear         PARTIAL   by robot R (lane 1600, stop -2400, roll 270)   81 s
+[ 53/204] Rear         painted by robot L (lane 1600, stop -2400, roll   0)   82 s
+[ 54/204] Rear         painted by robot L (lane 1600, stop -2400, roll   0)   83 s
+[ 55/204] Rear         painted by robot L (lane 1600, stop -2400, roll   0)   84 s
+[ 56/204] Rear         painted by robot L (lane 1600, stop -2400, roll   0)   85 s
+[ 57/204] Rear         painted by robot L (lane 1600, stop -2400, roll   0)   87 s
+[ 58/204] Rear         painted by robot L (lane 1600, stop -2400, roll   0)   88 s
+[ 59/204] Rear         painted by robot L (lane 1600, stop -2400, roll   0)   89 s
+[ 60/204] Side_Left    painted by robot L (lane 1600, stop -2100, roll   0)   90 s
+[ 61/204] Side_Left    painted by robot L (lane 1500, stop -2100, roll   0)   91 s
+[ 62/204] Side_Left    painted by robot L (lane 1500, stop -1500, roll   0)   92 s
+[ 63/204] Side_Left    painted by robot L (lane 1500, stop  -900, roll   0)   93 s
+[ 64/204] Side_Left    painted by robot L (lane 1600, stop  -300, roll   0)   94 s
+[ 65/204] Side_Left    painted by robot L (lane 1600, stop   300, roll   0)   95 s
+[ 66/204] Side_Left    painted by robot L (lane 1600, stop   900, roll   0)   96 s
+[ 67/204] Side_Left    painted by robot L (lane 1500, stop  1200, roll   0)   97 s
+[ 68/204] Side_Left    painted by robot L (lane 1500, stop  1200, roll   0)   98 s
+[ 69/204] Side_Left    painted by robot L (lane 1800, stop  1350, roll   0)   99 s
+[ 70/204] Side_Left    painted by robot L (lane 1600, stop  1500, roll   0)   99 s
+[ 71/204] Side_Left    painted by robot L (lane 1500, stop  1050, roll   0)  101 s
+[ 72/204] Side_Left    painted by robot L (lane 1500, stop   450, roll   0)  102 s
+[ 73/204] Side_Left    painted by robot L (lane 1600, stop  -150, roll   0)  103 s
+[ 74/204] Side_Left    painted by robot L (lane 1600, stop  -750, roll   0)  104 s
+[ 75/204] Side_Left    painted by robot L (lane 1600, stop -1200, roll   0)  105 s
+[ 76/204] Side_Left    painted by robot L (lane 1600, stop -1200, roll   0)  106 s
+[ 77/204] Side_Left    painted by robot L (lane 1800, stop -1350, roll   0)  107 s
+[ 78/204] Side_Left    painted by robot L (lane 1700, stop -1500, roll   0)  108 s
+[ 79/204] Side_Left    painted by robot L (lane 1600, stop -1050, roll   0)  109 s
+[ 80/204] Side_Left    painted by robot L (lane 1600, stop  -450, roll   0)  111 s
+[ 81/204] Side_Left    painted by robot L (lane 1600, stop   150, roll   0)  112 s
+[ 82/204] Side_Left    painted by robot L (lane 1600, stop   750, roll   0)  113 s
+[ 83/204] Side_Left    painted by robot L (lane 1600, stop  1200, roll   0)  115 s
+[ 84/204] Side_Left    painted by robot L (lane 1600, stop  1200, roll   0)  116 s
+[ 85/204] Side_Left    painted by robot L (lane 2000, stop  1350, roll   0)  117 s
+[ 86/204] Side_Left    painted by robot L (lane 1700, stop  1500, roll   0)  118 s
+[ 87/204] Side_Left    painted by robot L (lane 1600, stop  1050, roll   0)  119 s
+[ 88/204] Side_Left    painted by robot L (lane 1600, stop   450, roll   0)  121 s
+[ 89/204] Side_Left    painted by robot L (lane 1600, stop  -150, roll   0)  122 s
+[ 90/204] Side_Left    painted by robot L (lane 1600, stop  -750, roll   0)  123 s
+[ 91/204] Side_Left    painted by robot L (lane 1500, stop -1050, roll   0)  125 s
+[ 92/204] Side_Left    painted by robot L (lane 1500, stop -1050, roll   0)  126 s
+[ 93/204] Side_Left    painted by robot L (lane 1600, stop  -750, roll   0)  127 s
+[ 94/204] Side_Left    painted by robot L (lane 2000, stop  -750, roll   0)  128 s
+[ 95/204] Side_Left    painted by robot L (lane 1600, stop -1050, roll   0)  129 s
+[ 96/204] Side_Left    painted by robot L (lane 1600, stop  -450, roll   0)  131 s
+[ 97/204] Side_Left    painted by robot L (lane 1600, stop   150, roll   0)  132 s
+[ 98/204] Side_Left    painted by robot L (lane 1600, stop   750, roll   0)  134 s
+[ 99/204] Side_Left    painted by robot L (lane 1500, stop  1050, roll   0)  135 s
+[100/204] Roof         SKIPPED - R lane 1600 stop 600 roll 0: approach move failed: collision during MoveL with simple_car
+[101/204] Roof         SKIPPED - R lane 1600 stop 0 roll 0: approach move failed: collision during MoveL with simple_car
+[102/204] Roof         SKIPPED - R lane 1600 stop -600 roll 0: approach move failed: collision during MoveL with simple_car
+[103/204] Roof         painted by robot R (lane 1600, stop  -600, roll   0)  146 s
+[104/204] Roof         painted by robot R (lane 1600, stop     0, roll   0)  148 s
+[105/204] Roof         painted by robot R (lane 1600, stop   600, roll   0)  150 s
+[106/204] Roof         painted by robot R (lane 1600, stop   600, roll   0)  151 s
+[107/204] Roof         painted by robot R (lane 1600, stop     0, roll   0)  153 s
+[108/204] Roof         painted by robot R (lane 1600, stop  -600, roll   0)  154 s
+[109/204] Roof         painted by robot R (lane 1600, stop  -600, roll   0)  156 s
+[110/204] Roof         painted by robot R (lane 1600, stop     0, roll   0)  157 s
+[111/204] Roof         painted by robot R (lane 1600, stop   600, roll   0)  159 s
+[112/204] Hood         painted by robot R (lane 1600, stop  2100, roll   0)  160 s
+[113/204] Hood         painted by robot R (lane 1600, stop  1800, roll   0)  161 s
+[114/204] Hood         painted by robot L (lane 1600, stop  1350, roll  90)  163 s
+[115/204] Hood         painted by robot L (lane 1600, stop  1350, roll   0)  164 s
+[116/204] Hood         painted by robot R (lane 1600, stop  1650, roll  90)  165 s
+[117/204] Hood         painted by robot R (lane 1600, stop  2100, roll  90)  167 s
+[118/204] Hood         painted by robot R (lane 1600, stop  2100, roll   0)  168 s
+[119/204] Hood         painted by robot R (lane 1600, stop  1800, roll   0)  169 s
+[120/204] Hood         painted by robot R (lane 2000, stop  1200, roll   0)  194 s
+[121/204] Hood         painted by robot R (lane 2000, stop  1200, roll  90)  195 s
+[122/204] Hood         painted by robot R (lane 1600, stop  1650, roll  90)  196 s
+[123/204] Hood         painted by robot R (lane 1600, stop  2100, roll  90)  197 s
+[124/204] Hood         painted by robot R (lane 1600, stop  2100, roll   0)  198 s
+[125/204] Hood         painted by robot R (lane 1600, stop  1800, roll   0)  199 s
+[126/204] Hood         painted by robot R (lane 1600, stop  1350, roll   0)  201 s
+[127/204] Hood         painted by robot R (lane 1600, stop  1350, roll  90)  202 s
+[128/204] Hood         painted by robot R (lane 1600, stop  1650, roll  90)  203 s
+[129/204] Hood         painted by robot R (lane 1600, stop  2100, roll  90)  204 s
+[130/204] Trunk        painted by robot R (lane 1600, stop -1350, roll   0)  207 s
+[131/204] Trunk        painted by robot R (lane 1600, stop -1650, roll   0)  209 s
+[132/204] Trunk        painted by robot R (lane 1600, stop -2100, roll   0)  210 s
+[133/204] Trunk        painted by robot R (lane 1600, stop -2100, roll  90)  211 s
+[134/204] Trunk        painted by robot R (lane 1600, stop -1800, roll  90)  212 s
+[135/204] Trunk        painted by robot R (lane 1600, stop -1350, roll  90)  213 s
+[136/204] Trunk        painted by robot R (lane 1600, stop -1350, roll   0)  214 s
+[137/204] Trunk        painted by robot R (lane 1600, stop -1650, roll   0)  215 s
+[138/204] Trunk        painted by robot R (lane 1600, stop -2100, roll   0)  216 s
+[139/204] Trunk        painted by robot R (lane 1600, stop -2100, roll  90)  217 s
+[140/204] Trunk        painted by robot R (lane 1600, stop -1800, roll  90)  218 s
+[141/204] Trunk        painted by robot R (lane 1600, stop -1350, roll  90)  220 s
+[142/204] Trunk        painted by robot R (lane 1600, stop -1350, roll   0)  221 s
+[143/204] Trunk        painted by robot R (lane 1600, stop -1650, roll   0)  222 s
+[144/204] Trunk        painted by robot R (lane 1600, stop -2100, roll   0)  223 s
+[145/204] Front        painted by robot L (lane 1500, stop  2500, roll 150)  228 s
+[146/204] Front        painted by robot R (lane 1600, stop  2400, roll   0)  230 s
+[147/204] Front        painted by robot R (lane 1600, stop  2400, roll   0)  231 s
+[148/204] Front        painted by robot R (lane 1600, stop  2400, roll   0)  232 s
+[149/204] Front        painted by robot R (lane 1600, stop  2400, roll   0)  233 s
+[150/204] Front        painted by robot R (lane 1600, stop  2400, roll   0)  234 s
+[151/204] Front        painted by robot R (lane 1600, stop  2400, roll   0)  236 s
+[152/204] Front        painted by robot R (lane 1600, stop  2400, roll   0)  237 s
+[153/204] Front        painted by robot R (lane 1600, stop  2400, roll   0)  238 s
+[154/204] Front        painted by robot R (lane 1600, stop  2400, roll   0)  239 s
+[155/204] Rear         painted by robot R (lane 1600, stop -2400, roll   0)  243 s
+[156/204] Rear         painted by robot R (lane 1600, stop -2400, roll   0)  244 s
+[157/204] Rear         painted by robot R (lane 1600, stop -2400, roll  90)  245 s
+[158/204] Rear         painted by robot R (lane 1500, stop -2400, roll 180)  246 s
+[159/204] Rear         painted by robot R (lane 1600, stop -2250, roll   0)  253 s
+[160/204] Rear         painted by robot R (lane 1600, stop -2250, roll   0)  255 s
+[161/204] Rear         painted by robot R (lane 1600, stop -2250, roll   0)  256 s
+[162/204] Rear         painted by robot R (lane 1600, stop -2250, roll  90)  257 s
+[163/204] Rear         painted by robot R (lane 1600, stop -2250, roll 270)  259 s
+[164/204] Rear         painted by robot R (lane 1600, stop -2250, roll   0)  260 s
+[165/204] Side_Right   painted by robot R (lane 1600, stop -2100, roll   0)  261 s
+[166/204] Side_Right   painted by robot R (lane 1500, stop -2100, roll   0)  262 s
+[167/204] Side_Right   painted by robot R (lane 1500, stop -1500, roll   0)  264 s
+[168/204] Side_Right   painted by robot R (lane 1500, stop  -900, roll   0)  265 s
+[169/204] Side_Right   painted by robot R (lane 1600, stop  -300, roll   0)  266 s
+[170/204] Side_Right   painted by robot R (lane 1600, stop   300, roll   0)  268 s
+[171/204] Side_Right   painted by robot R (lane 1600, stop   900, roll   0)  270 s
+[172/204] Side_Right   painted by robot R (lane 1500, stop  1200, roll   0)  271 s
+[173/204] Side_Right   painted by robot R (lane 1500, stop  1200, roll   0)  272 s
+[174/204] Side_Right   painted by robot R (lane 1800, stop  1350, roll   0)  273 s
+[175/204] Side_Right   painted by robot R (lane 1600, stop  1500, roll   0)  275 s
+[176/204] Side_Right   painted by robot R (lane 1500, stop  1050, roll   0)  276 s
+[177/204] Side_Right   painted by robot R (lane 1500, stop   450, roll   0)  278 s
+[178/204] Side_Right   painted by robot R (lane 1600, stop  -150, roll   0)  279 s
+[179/204] Side_Right   painted by robot R (lane 1600, stop  -750, roll   0)  281 s
+[180/204] Side_Right   painted by robot R (lane 1600, stop -1200, roll   0)  282 s
+[181/204] Side_Right   painted by robot R (lane 1600, stop -1200, roll   0)  283 s
+[182/204] Side_Right   painted by robot R (lane 1800, stop -1350, roll   0)  285 s
+[183/204] Side_Right   painted by robot R (lane 1700, stop -1500, roll   0)  286 s
+[184/204] Side_Right   painted by robot R (lane 1600, stop -1050, roll   0)  288 s
+[185/204] Side_Right   painted by robot R (lane 1600, stop  -450, roll   0)  290 s
+[186/204] Side_Right   painted by robot R (lane 1600, stop   150, roll   0)  291 s
+[187/204] Side_Right   painted by robot R (lane 1600, stop   750, roll   0)  293 s
+[188/204] Side_Right   painted by robot R (lane 1600, stop  1200, roll   0)  295 s
+[189/204] Side_Right   painted by robot R (lane 1600, stop  1200, roll   0)  296 s
+[190/204] Side_Right   painted by robot R (lane 2000, stop  1350, roll   0)  298 s
+[191/204] Side_Right   painted by robot R (lane 1700, stop  1500, roll   0)  299 s
+[192/204] Side_Right   painted by robot R (lane 1600, stop  1050, roll   0)  301 s
+[193/204] Side_Right   painted by robot R (lane 1600, stop   450, roll   0)  303 s
+[194/204] Side_Right   painted by robot R (lane 1600, stop  -150, roll   0)  304 s
+[195/204] Side_Right   painted by robot R (lane 1600, stop  -750, roll   0)  306 s
+[196/204] Side_Right   painted by robot R (lane 1500, stop -1050, roll   0)  308 s
+[197/204] Side_Right   painted by robot R (lane 1500, stop -1050, roll   0)  310 s
+[198/204] Side_Right   painted by robot R (lane 1600, stop  -750, roll   0)  311 s
+[199/204] Side_Right   painted by robot R (lane 2000, stop  -750, roll   0)  312 s
+[200/204] Side_Right   painted by robot R (lane 1600, stop -1050, roll   0)  314 s
+[201/204] Side_Right   painted by robot R (lane 1600, stop  -450, roll   0)  316 s
+[202/204] Side_Right   painted by robot R (lane 1600, stop   150, roll   0)  318 s
+[203/204] Side_Right   painted by robot R (lane 1600, stop   750, roll   0)  320 s
+[204/204] Side_Right   painted by robot R (lane 1500, stop  1050, roll   0)  322 s
+
+======================================================================
+SIMULATION SUMMARY REPORT
+======================================================================
+   Roof        :  85.7% coverage (18/21 pieces painted, 0 partial, 3 skipped)
+   Hood        : 135.4% coverage (33/33 pieces painted, 0 partial, 0 skipped)
+   Trunk       : 114.4% coverage (29/30 pieces painted, 0 partial, 1 skipped)
+   Front       : 103.3% coverage (20/20 pieces painted, 0 partial, 0 skipped)
+   Rear        : 143.3% coverage (19/20 pieces painted, 1 partial, 0 skipped)
+   Side_Right  : 100.0% coverage (40/40 pieces painted, 0 partial, 0 skipped)
+   Side_Left   : 100.0% coverage (40/40 pieces painted, 0 partial, 0 skipped)
+----------------------------------------------------------------------
+Total Surface Coverage : 108.9% (199 of 204 pieces completed)
+Collisions Detected    : 41 (Zero genuine robot-car collisions executed)
+Live Paint Ribbons     : 777 painted stripes rendered
+Robot L Performance    : 97 pieces, 488.3 s active time
+Robot R Performance    : 102 pieces, 506.9 s active time
+Estimated cycle time   : 507 s (8.4 min)
+
+Skipped pieces sample: 4 skipped
+   Piece 28 (Trunk): L lane 1600 stop -1350 roll 90: move to approach failed: collision during MoveJ with simple_car; L lane 1600 stop -1350 
+   Piece 100 (Roof): R lane 1600 stop 600 roll 0: approach move failed: collision during MoveL with simple_car; R lane 1600 stop 600 roll 90:
+   Piece 101 (Roof): R lane 1600 stop 0 roll 0: approach move failed: collision during MoveL with simple_car; R lane 1600 stop 0 roll 90: col
+   Piece 102 (Roof): R lane 1600 stop -600 roll 0: approach move failed: collision during MoveL with simple_car; R lane 1600 stop -600 roll 9
+
+Artifact files written to C:\projects\robotic-car-painting-cell:
+   - reachability_log.csv
+   - run_log.csv
+   - results_summary.csv
+   - run_console_log.txt
+======================================================================

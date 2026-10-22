@@ -1,0 +1,9 @@
+surface,designed_mm,painted_mm,coverage_pct,pieces_total,pieces_done,pieces_partial,pieces_skipped
+Roof,12460.0,10680.0,85.7,21,18,0,3
+Hood,14520.0,19653.3,135.4,33,33,0,0
+Trunk,12200.0,13962.2,114.4,30,29,0,1
+Front,8900.0,9196.7,103.3,20,20,0,0
+Rear,8900.0,12756.7,143.3,20,19,1,0
+Side_Right,23400.0,23400.0,100.0,40,40,0,0
+Side_Left,23400.0,23400.0,100.0,40,40,0,0
+TOTAL,103780.0,113048.9,108.9,204,199,1,4
