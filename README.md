@@ -2,6 +2,8 @@
 
 An industrial robotic automation simulation of a car painting workcell utilizing dual **FANUC P-250iB RH** robotic manipulators integrated with **RoboDK** and automated Python trajectory generation.
 
+📄 **[Download / View Full Technical Assessment Report (PDF)](Robotic_Car_Painting_Cell_Report.pdf)**
+
 ![Robotic Car Painting Cell](screenshots/Screenshot%202026-10-17%20194455.png)
 
 ---
